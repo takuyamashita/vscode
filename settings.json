@@ -1,0 +1,104 @@
+{
+    "vim.useSystemClipboard": true,
+    "editor.codeLens": false,
+    "editor.fontFamily": "'Roboto Mono',Consolas, 'Courier New', monospace",
+    "editor.cursorSurroundingLines": 10,
+    "[dart]": {
+        "editor.formatOnSave": true,
+        "editor.formatOnType": true,
+        "editor.tabSize": 2,
+        "editor.selectionHighlight": false,
+        "editor.suggest.snippetsPreventQuickSuggestions": false,
+        "editor.suggestSelection": "first",
+        "editor.tabCompletion": "onlySnippets",
+        "editor.wordBasedSuggestions": false
+    },
+    "editor.overviewRulerBorder": false,
+    "editor.rulers": [
+    
+    ],
+    "explorer.compactFolders": false,
+    "editor.fontSize": 12,
+    "editor.letterSpacing": 0.1,
+
+    "workbench.colorCustomizations": {
+        "[GitHub Light]": {
+            "titleBar.border": "#f5f7f8",
+            "titleBar.activeBackground": "#f5f7f8",
+            "titleBar.inactiveBackground": "#f5f7f8",
+
+            "activityBar.background": "#f5f7f8",
+            "activityBar.border": "#f5f7f8",
+
+            "editorGroup.border": "#f5f7f8",
+            "editorGroupHeader.tabsBackground": "#f5f7f8",
+
+            "tab.activeBackground": "#f5f7f8", // アクティブタブの背景色
+            "tab.activeBorder": "#f5f7f8",
+            "tab.border": "#f5f7f8", // タブの横線
+            "tab.inactiveBackground": "#f5f7f8", // 非選択タブの背景色
+
+            "breadcrumb.background": "#f5f7f8",
+
+            "editor.background": "#f5f7f8",
+            "editorGroupHeader.border": "#f5f7f8",
+            "editor.lineHighlightBackground": "#e6eef1",
+
+            "sideBar.background": "#f5f7f8",
+            "sideBar.border": "#f5f7f8",
+            "sideBarSectionHeader.background": "#f5f7f8",
+            "sideBarSectionHeader.border": "#f5f7f8",
+
+            "statusBar.background": "#f5f7f8", // ステータスバー背景色
+            "statusBar.noFolderBackground": "#f5f7f8",
+            "statusBarItem.activeBackground": "#d2dadc",
+            "statusBarItem.remoteBackground": "#f5f7f8",
+            "statusBar.border": "#f5f7f8", // ステータスバー前景色
+
+            "panel.background": "#f5f7f8",
+            "panel.border": "#f5f7f8",
+
+            "terminal.background": "#f5f7f8"
+        },
+
+        "[GitHub Dark]": {
+            "titleBar.border": "#24292e",
+            "titleBar.activeBackground": "#24292e",
+            "titleBar.inactiveBackground": "#24292e",
+
+            "editorGroup.border": "#24292e",
+            "editorGroupHeader.tabsBackground": "#24292e",
+
+            "tab.activeBackground": "#24292e", // アクティブタブの背景色
+            "tab.activeBorder": "#24292e",
+            "tab.border": "#24292e", // タブの横線
+            "tab.inactiveBackground": "#24292e", // 非選択タブの背景色
+
+            "breadcrumb.background": "#24292e",
+
+            "editor.background": "#24292e",
+            "editorGroupHeader.border": "#24292e",
+
+            "activityBar.background": "#24292e",
+            "activityBar.border": "#24292e",
+
+            "sideBar.background": "#24292e",
+            "sideBar.border": "#24292e",
+            "sideBarSectionHeader.background": "#24292e",
+            "sideBarSectionHeader.border": "#24292e",
+
+
+            "statusBar.background": "#24292e", // ステータスバー背景色
+            "statusBar.noFolderBackground": "#24292e",
+            "statusBarItem.remoteBackground": "#24292e",
+            "statusBar.border": "#24292e", // ステータスバー前景色
+
+
+            "panel.background": "#24292e",
+            "panel.border": "#24292e",
+
+            "terminal.background": "#24292e"
+        }
+    },
+    "workbench.colorTheme": "GitHub Light"
+}
