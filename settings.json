@@ -1,22 +1,49 @@
 {
+  "go.buildOnSave": "off",
+    "go.gopath": "/Users/takumayamashita/go/1.16.0",
+    "go.goroot": "/Users/takumayamashita/.goenv/versions/1.16.0",
+    "go.useLanguageServer": true,
+    "editor.tabSize": 2,
+    "vim.easymotion": true,
+    "vim.incsearch": true,
     "vim.useSystemClipboard": true,
-    "editor.codeLens": false,
+    "vim.useCtrlKeys": true,
+    "vim.hlsearch": true,
+    "vim.insertModeKeyBindings": [
+      {
+        "before": ["j", "j"],
+        "after": ["<Esc>"]
+      }
+    ],
+    "vim.normalModeKeyBindingsNonRecursive": [
+      {
+        "before": ["<leader>", "d"],
+        "after": ["d", "d"]
+      },
+      {
+        "before": ["<C-n>"],
+        "commands": [":nohl"]
+      }
+    ],
+    "vim.leader": "<space>",
+    "vim.handleKeys": {
+      "<C-a>": false,
+      "<C-f>": false
+    },
+    "[php]": {
+      "editor.tabSize": 4,
+    },
+    "[vue]": {
+      "editor.tabSize": 4,
+    },
+    "[javascript]": {
+      "editor.tabSize": 4,
+      "editor.detectIndentation": false,
+      "editor.insertSpaces": false,
+    },
+    "diffEditor.ignoreTrimWhitespace": false,
     "editor.fontFamily": "'Roboto Mono',Consolas, 'Courier New', monospace",
     "editor.cursorSurroundingLines": 10,
-    "[dart]": {
-        "editor.formatOnSave": true,
-        "editor.formatOnType": true,
-        "editor.tabSize": 2,
-        "editor.selectionHighlight": false,
-        "editor.suggest.snippetsPreventQuickSuggestions": false,
-        "editor.suggestSelection": "first",
-        "editor.tabCompletion": "onlySnippets",
-        "editor.wordBasedSuggestions": false
-    },
-    "editor.overviewRulerBorder": false,
-    "editor.rulers": [
-    
-    ],
     "explorer.compactFolders": false,
     "editor.fontSize": 12,
     "editor.letterSpacing": 0.1,
@@ -42,7 +69,14 @@
 
             "editor.background": "#f5f7f8",
             "editorGroupHeader.border": "#f5f7f8",
-            "editor.lineHighlightBackground": "#e6eef1",
+
+            "editor.lineHighlightBackground": "#e5ecf9",
+            "editor.selectionHighlightBorder": "#dcf6e7",
+            "editor.selectionBackground": "#dcf6e7",
+            "editor.wordHighlightBackground": "#dcf6e7",
+            "editor.wordHighlightBorder": "#dcf6e7",
+            "editor.wordHighlightStrongBackground": "#dcf6e7",
+            "editor.wordHighlightStrongBorder": "#dcf6e7",
 
             "sideBar.background": "#f5f7f8",
             "sideBar.border": "#f5f7f8",
@@ -100,5 +134,8 @@
             "terminal.background": "#24292e"
         }
     },
-    "workbench.colorTheme": "GitHub Light"
+    "workbench.colorTheme": "GitHub Light",
+    "editor.minimap.enabled": false,
+    "zenMode.hideStatusBar": false,
+    "zenMode.hideActivityBar": false
 }
